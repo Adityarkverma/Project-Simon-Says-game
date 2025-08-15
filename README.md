@@ -1,2 +1,3 @@
 # delta-demo
-This is demo for my git Hub
+This is demo for my git Hub.
+Getting Familiar with Git Hub.
