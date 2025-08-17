@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px #ff00ff, 0 0 15px #ff00ff;
+}
+
+/* Container for buttons */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Rows inside button container */
+.l1, .l2 {
+  display: flex;
+  gap: 20px;
+}
+
+/* General button style */
+.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 4px solid white;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Button colors */
+.red {
+  background-color: #ff4c4c;
+}
+.yellow {
+  background-color: #ffeb3b;
+}
+.green {
+  background-color: #4caf50;
+}
+.blue {
+  background-color: #2196f3;
+}
+
+/* Flash effect (game generated) */
+.flash {
+  box-shadow: 0 0 40px white, 0 0 60px white;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Flash effect (user click) */
+.userflash {
+  box-shadow: 0 0 30px #fff inset, 0 0 50px #fff;
+  opacity: 0.9;
+  transform: scale(0.97);
+}
+
+/* Game over background flash handled by JS */
