@@ -34,7 +34,7 @@ function levelup(){
     level++;
     h2.innerText = `Level ${level}`;
 
-    let rdidx = Math.floor(Math.random()*3);
+    let rdidx = Math.floor(Math.random()*4);
     let rdclr = btns[rdidx];
     gs.push(rdclr);
     let rdbtn = document.querySelector(`.${rdclr}`);
